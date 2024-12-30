@@ -119,12 +119,32 @@ a {
 }
 
 .rounded-container > .subtext {
-    color: #1f2937;
+    color: #1F2937;
     margin-top: 8px;
 }
 
 .info-container > h1 {
     margin: 0;
+}
+
+.quote-container {
+    background: #E5E7EB;
+    padding: 88px;
+    margin: 100px 0;
+}
+
+.quote-container > p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#quote-ref {
+    text-align: end;
+    font-weight: 700;
+    margin-right: 24px;
+
 }
 
 
