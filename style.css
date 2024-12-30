@@ -125,6 +125,9 @@ a {
 
 .info-container > h1 {
     margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .quote-container {
@@ -138,13 +141,41 @@ a {
     font-weight: lighter;
     font-size: 36px;
     color: #1f2937;
+    max-width: 1200px;
 }
 
 #quote-ref {
     text-align: end;
     font-weight: 700;
     margin-right: 24px;
+    max-width: 1200px;
+}
 
+.signup-container {
+    background: #3882F6;
+    border-radius: 10px;
+    margin: 100px 180px;
+    padding: 42px 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text > h2 {
+    margin: 0;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.signup-text > p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.signup-container > button {
+    border-radius: 7px;
+    border: 1.5px solid #F9FAF8;
+    padding: 6px;
 }
 
 
