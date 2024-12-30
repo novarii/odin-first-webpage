@@ -178,6 +178,12 @@ a {
     padding: 6px;
 }
 
+footer {
+    background: #1F2937;
+    text-align: center;
+    padding: 32px;
+    color: #E5E7EB;
+}
 
 nav > ul {
     display: flex;
